@@ -26,7 +26,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 source $ZSH/oh-my-zsh.sh
 
 # ALIASES
-alias ga='git add'
+alias gaa='git add .'
 alias gcm='git commit -m'
 alias gpsh='git push'
 
