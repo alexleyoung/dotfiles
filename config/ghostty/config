@@ -2,13 +2,14 @@
 #font-family = Iosevka Nerd Font
 # font-family = SFMono Nerd Font 
 font-family = "JetBrainsMono Nerd Font"
-font-size = 20
+font-size = 16
 
 theme = catppuccin-mocha
 shell-integration-features = no-cursor,sudo,no-title
 cursor-style = block
 adjust-cell-height = 35%
 background-opacity = 0.85
+window-decoration = none
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2

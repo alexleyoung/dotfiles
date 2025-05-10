@@ -1,11 +1,9 @@
 # default paths
 export XDG_CONFIG_HOME="$HOME/.config"
 
-export PATH="$HOME/.local/bin:$PATH"
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
-export GOPATH=$(go env GOPATH)
-export GOBIN=$GOPATH/bin
-export PATH="$PATH:$GOBIN"
+export PATH="$HOME/.local/bin:$PATH"
 
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
@@ -22,5 +20,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 export VCPKG_ROOT="/opt/vcpkg"
+
 
 export EDITOR=nvim
