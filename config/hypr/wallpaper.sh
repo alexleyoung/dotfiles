@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# STRAIGHT FROM CHAT GPT
 # Wait until all monitors are registered (adjust timeout as needed)
 timeout=5
 count=0
