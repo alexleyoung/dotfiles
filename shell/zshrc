@@ -45,6 +45,9 @@ alias ls="eza --no-filesize --color=always --icons=always --no-user"
 # fzf
 alias nlof="~/dotfiles/scripts/fzf-lof.sh"
 
+# kitty icat
+alias icat="kitten icat"
+
 # ─────────────────────────────────────────────────────────────
 # tooling / CLI stuff
 # ─────────────────────────────────────────────────────────────
