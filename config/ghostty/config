@@ -1,7 +1,8 @@
 #font-family = BerkeleyMono Nerd Font
 #font-family = Iosevka Nerd Font
 # font-family = SFMono Nerd Font 
-font-family = "JetBrainsMono Nerd Font"
+# font-family = "JetBrainsMono Nerd Font"
+font-family = "FiraCode Nerd Font Mono"
 font-size = 16
 
 theme = catppuccin-mocha

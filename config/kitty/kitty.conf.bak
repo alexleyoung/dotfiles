@@ -29,13 +29,6 @@ enable_audio_bell no
 # os specific tweaks (Gnome window decoration for wayland)
 linux_display_server x11
 
-# font
-font_family        FiraCode Nerd Font
-bold_font          auto
-italic_font        auto
-bold_italic_font   auto
-font_size 12.0
-
 # font size management 
 map ctrl+shift+backspace change_font_size all 0
 
@@ -89,3 +82,11 @@ map ctrl+shift+t new_tab
 map ctrl+shift+right next_tab
 map ctrl+shift+left previous_tab
 map ctrl+shift+q close_tab
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="FiraCode Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
