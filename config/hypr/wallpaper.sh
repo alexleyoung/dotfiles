@@ -12,5 +12,5 @@ while [ $(hyprctl monitors | grep 'Monitor' | wc -l) -lt 2 ] && [ $count -lt $ti
 done
 
 # Set wallpaper for each monitor
-swww img /home/alexy/Documents/wallpapers/singapore-wp.png --transition-type any
+swww img /home/alex/Documents/wallpapers/wallpaper.png --transition-type any
 
