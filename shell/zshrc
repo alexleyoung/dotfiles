@@ -48,9 +48,7 @@ eval "$(zoxide init zsh)"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # go cli
-export GOPATH=$(go env GOPATH)
-export GOBIN=$GOPATH/bin
-export PATH="$PATH:$GOBIN"
+export PATH=$PATH:/usr/local/go/bin
 
 # ─────────────────────────────────────────────────────────────
 # conda initialization
