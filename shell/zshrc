@@ -23,10 +23,12 @@ alias e="exit"
 
 # git
 alias gt="git"
+alias gc="git commit"
 alias gaa="git add ."
-alias gs="git status -s"
+alias gs="git status -s -v"
 alias gcm='git commit -m'
 alias gp='git push'
+alias gpu='git pull'
 alias glog='git log --oneline --graph --all'
 
 # lazygit
