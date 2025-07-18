@@ -1,0 +1,133 @@
+/* https://github.com/Egosummiki/dotfiles/blob/master/waybar/style.css */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "FiraCode Nerd Font";
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.25));
+}
+window#waybar>box {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#window {
+    font-weight: bold;
+    font-family: "FiraCode";
+}
+/*
+#workspaces {
+    padding: 0 5px;
+}
+*/
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-top: 2px solid transparent;
+}
+
+#workspaces button.focused {
+    color: #c9545d;
+    border-top: 2px solid #c9545d;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode {
+    padding: 0 3px;
+    margin: 0 2px;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#battery {
+}
+
+#battery icon {
+    color: red;
+}
+
+#battery.charging {
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background: #f53c3c;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+}
+
+#custom-spotify {
+    color: rgb(102, 220, 105);
+}
+
+#tray {
+}
+
+/* CHATGPT */
+/* * { */
+/*     font-family: "JetBrainsMono Nerd Font", sans-serif; */
+/*     font-size: 14px; */
+/*     color: #cdd6f4; */
+/* } */
+/**/
+/* window#waybar { */
+/*     background-color: rgba(24, 26, 38, 0.85); */
+/*     border-radius: 8px; */
+/*     border: 1px solid #89b4fa; */
+/*     padding: 6px 10px; */
+/* } */
+/**/
+/* #workspaces button { */
+/*     padding: 0 8px; */
+/*     margin: 0 3px; */
+/*     color: #cdd6f4; */
+/*     border-radius: 10px; */
+/* } */
+/**/
+/* #workspaces button.active { */
+/*     background-color: #89b4fa; */
+/*     color: #1e1e2e; */
+/* } */
+/**/
+/* #clock, */
+/* #battery, */
+/* #pulseaudio, */
+/* #network, */
+/* #tray, */
+/* #language, */
+/* #cpu, */
+/* #memory, */

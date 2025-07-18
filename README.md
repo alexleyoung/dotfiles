@@ -1,1 +1,3 @@
 # alex's dotfiles !
+
+includes comfigs and ricing stuff! NOT organized by OS in anyway...

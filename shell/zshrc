@@ -8,13 +8,6 @@ if command -v tmux >/dev/null 2>&1; then
 fi
 
 # ─────────────────────────────────────────────────────────────
-# Oh My Zsh & Theme
-# ─────────────────────────────────────────────────────────────
-export ZSH="$HOME/.oh-my-zsh"
-plugins=(git z zsh-autosuggestions zsh-syntax-highlighting web-search)
-source $ZSH/oh-my-zsh.sh
-
-# ─────────────────────────────────────────────────────────────
 # starship
 # ─────────────────────────────────────────────────────────────
 
@@ -30,10 +23,12 @@ alias e="exit"
 
 # git
 alias gt="git"
+alias gc="git commit"
 alias gaa="git add ."
-alias gs="git status -s"
+alias gs="git status -s -v"
 alias gcm='git commit -m'
 alias gp='git push'
+alias gpu='git pull'
 alias glog='git log --oneline --graph --all'
 
 # lazygit
@@ -42,8 +37,8 @@ alias lg="lazygit"
 # eza
 alias ls="eza --no-filesize --color=always --icons=always --no-user" 
 
-# fzf
-alias nlof="~/dotfiles/scripts/fzf-lof.sh"
+# kitty icat
+alias icat="kitten icat"
 
 # ─────────────────────────────────────────────────────────────
 # tooling / CLI stuff
@@ -54,31 +49,8 @@ eval "$(zoxide init zsh)"
 # bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
-# FZF
-# Set up fzf key bindings and fuzzy completion
-eval "$(fzf --zsh)"
-
-export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git "
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
-
-export FZF_DEFAULT_OPTS="--height 50% --layout=default --border --color=hl:#2dd4bf"
-
-# Setup fzf previews
-export FZF_CTRL_T_OPTS="--preview 'bat --color=always -n --line-range :500 {}'"
-export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | head -200'"
-
-# fzf preview for tmux
-export FZF_TMUX_OPTS=" -p90%,70% "  
-
-# FZF with Git right in the shell by Junegunn : check out his github below
-# Keymaps for this is available at https://github.com/junegunn/fzf-git.sh
-source ~/dotfiles/scripts/fzf-git.sh
-
 # go cli
-export GOPATH=$(go env GOPATH)
-export GOBIN=$GOPATH/bin
-export PATH="$PATH:$GOBIN"
+export PATH=$PATH:/usr/local/go/bin
 
 # ─────────────────────────────────────────────────────────────
 # conda initialization
