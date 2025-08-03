@@ -198,6 +198,9 @@ run = "move-node-to-workspace 2"
 [[on-window-detected]]
 if.app-id = 'company.thebrowser.Browser'
 run = "move-node-to-workspace 2"
+[[on-window-detected]]
+if.app-id = 'app.zen-browser.zen'
+run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.MobileSMS'
@@ -208,6 +211,9 @@ run = "move-node-to-workspace 3"
 
 [[on-window-detected]]
 if.app-id = 'md.obsidian'
+run = "move-node-to-workspace 4"
+[[on-window-detected]]
+if.app-id = 'com.apple.Notes'
 run = "move-node-to-workspace 4"
 
 [[on-window-detected]]
