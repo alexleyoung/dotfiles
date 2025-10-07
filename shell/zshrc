@@ -52,6 +52,9 @@ eval "$(zoxide init zsh)"
 # go cli
 export PATH=$PATH:/usr/local/go/bin
 
+# opam
+eval `opam config env`
+
 # ─────────────────────────────────────────────────────────────
 # conda initialization
 # ─────────────────────────────────────────────────────────────
