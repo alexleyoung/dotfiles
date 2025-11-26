@@ -111,8 +111,8 @@ cmd-shift-f = 'fullscreen'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
 cmd-h = 'focus left'
-cmd-j = 'focus down'
-cmd-k = 'focus up'
+# cmd-j = 'focus down'
+# cmd-k = 'focus up'
 cmd-l = 'focus right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
