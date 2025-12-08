@@ -52,6 +52,9 @@ eval "$(zoxide init zsh)"
 # go cli
 export PATH=$PATH:/usr/local/go/bin
 
+# scripts
+export PATH=$PATH:$HOME/bin
+
 # opam
 eval `opam config env`
 
