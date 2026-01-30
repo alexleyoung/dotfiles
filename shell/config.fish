@@ -44,4 +44,7 @@ if status is-interactive # Commands to run in interactive sessions can go here
     # kitty icat
     alias icat="kitten icat"
 
+    if not set -q TMUX
+        exec tmux new-session -A -s misc
+    end
 end
