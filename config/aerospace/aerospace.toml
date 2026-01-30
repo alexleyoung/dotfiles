@@ -174,30 +174,18 @@ cmd-shift-l = ['join-with right', 'mode main']
 
 # auto move apps to appropriate workspace
 [[on-window-detected]]
-if.app-id = 'com.microsoft.VSCode'
+if.app-id = 'net.kovidgoyal.kitty'
 run = "move-node-to-workspace 1"
 [[on-window-detected]]
-if.app-id = 'com.exafunction.windsurf'
+if.app-id = 'com.microsoft.VSCode'
 run = "move-node-to-workspace 1"
 [[on-window-detected]]
 if.app-id = 'com.jetbrains.intellij'
 run = "move-node-to-workspace 1"
 [[on-window-detected]]
-if.app-id = 'dev.warp.Warp-Stable'
-run = "move-node-to-workspace 1"
-[[on-window-detected]]
 if.app-id = 'com.googlecode.iterm2'
 run = "move-node-to-workspace 1"
-[[on-window-detected]]
-if.app-id = 'com.github.wez.wezterm'
-run = "move-node-to-workspace 1"
 
-[[on-window-detected]]
-if.app-id = 'company.thebrowser.Browser'
-run = "move-node-to-workspace 2"
-[[on-window-detected]]
-if.app-id = 'company.thebrowser.Browser'
-run = "move-node-to-workspace 2"
 [[on-window-detected]]
 if.app-id = 'app.zen-browser.zen'
 run = "move-node-to-workspace 2"
