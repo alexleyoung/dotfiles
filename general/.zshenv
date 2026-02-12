@@ -1,0 +1,25 @@
+# default paths
+export XDG_CONFIG_HOME="$HOME/.config"
+
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+
+export PATH="$HOME/.local/bin:$PATH"
+
+export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH="$HOME/development/flutter/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+export PATH="$HOME/.spicetify:$PATH"
+
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export VCPKG_ROOT="/opt/vcpkg"
+
+
+export EDITOR=nvim
