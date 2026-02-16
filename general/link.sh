@@ -15,6 +15,6 @@ for dir in */; do
         continue
     fi
 
-    ln -sfn "$(pwd)/$dir" "$target"
+    ln -sf "$(pwd)/$dir" "$target"
     echo "Linked: $dir -> $target"
 done
