@@ -1,0 +1,11 @@
+# Local credentials and runtime data
+auth.json
+sessions/
+
+# Temporary/runtime files
+.DS_Store
+*.log
+*.tmp
+tmp/
+temp/
+cache/
